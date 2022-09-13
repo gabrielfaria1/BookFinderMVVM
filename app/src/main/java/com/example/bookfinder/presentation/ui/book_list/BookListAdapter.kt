@@ -6,7 +6,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.bookfinder.R
-import com.example.bookfinder.domain.model.Book
+import com.example.bookfinder.data.model.Book
 import com.example.bookfinder.databinding.ListItemBinding
 
 

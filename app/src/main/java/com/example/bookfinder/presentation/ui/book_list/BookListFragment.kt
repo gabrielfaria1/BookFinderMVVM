@@ -11,7 +11,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.bookfinder.databinding.FragmentBookListBinding
-import com.example.bookfinder.domain.utils.Utils
+import com.example.bookfinder.data.utils.Utils
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

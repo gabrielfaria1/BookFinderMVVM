@@ -5,7 +5,7 @@ import android.content.Context
 import com.example.bookfinder.network.ApiService
 import com.example.bookfinder.repository.BooksRepository
 import com.example.bookfinder.repository.BooksRepositoryImpl
-import com.example.bookfinder.domain.utils.Constants
+import com.example.bookfinder.data.utils.Constants
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

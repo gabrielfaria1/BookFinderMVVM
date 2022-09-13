@@ -1,4 +1,4 @@
-package com.example.bookfinder.domain.utils
+package com.example.bookfinder.data.utils
 
 class Constants {
     companion object {

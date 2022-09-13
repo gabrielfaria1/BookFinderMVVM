@@ -1,4 +1,4 @@
-package com.example.bookfinder.domain.model
+package com.example.bookfinder.data.model
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName

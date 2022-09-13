@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.bookfinder.network.utils.Coroutines
-import com.example.bookfinder.domain.model.Book
+import com.example.bookfinder.data.model.Book
 import com.example.bookfinder.repository.BooksRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job

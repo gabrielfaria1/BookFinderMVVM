@@ -18,10 +18,10 @@
     <fragment
         android:id="@+id/bookDetailsFragment"
         android:name="com.example.bookfinder.presentation.ui.book_details.BookDetailsFragment"
-        android:label="BookDetailsFragment" >
+        android:label="Details">
         <argument
             android:name="book"
-            app:argType="com.example.bookfinder.domain.model.Book" />
+            app:argType="com.example.bookfinder.data.model.Book" />
         <action
             android:id="@+id/action_bookDetailsFragment_to_homeFragment"
             app:destination="@id/searchFragment" />

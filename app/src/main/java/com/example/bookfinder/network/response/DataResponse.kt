@@ -1,7 +1,7 @@
 package com.example.bookfinder.network.response
 
 import android.os.Parcelable
-import com.example.bookfinder.domain.model.Book
+import com.example.bookfinder.data.model.Book
 
 import com.google.gson.annotations.SerializedName
 import kotlinx.parcelize.Parcelize

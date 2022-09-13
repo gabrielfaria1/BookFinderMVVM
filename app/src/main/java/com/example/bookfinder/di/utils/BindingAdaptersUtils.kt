@@ -5,6 +5,7 @@ import android.widget.RatingBar
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
 import com.bumptech.glide.Glide
+import com.ms.square.android.expandabletextview.ExpandableTextView
 
 object BindingAdaptersUtils {
 
@@ -46,15 +47,15 @@ object BindingAdaptersUtils {
     @JvmStatic
     @BindingAdapter("android:bookReviews")
     fun setBookReviews(bookReviewsCount : TextView, bookReviews : Int) {
-        val textHolder = if (bookReviews.toString() != "null") "$bookReviews Reviews" else "0 Reviews"
+        val textHolder = if (bookReviews.toString() != "null") "($bookReviews)" else "(0)"
         bookReviewsCount.text = textHolder
     }
 
     @Suppress("UNCHECKED_CAST")
     @JvmStatic
     @BindingAdapter("android:bookDescription")
-    fun setBookDescription(bookDescription : TextView, description : String?) {
-        val textHolder = if (description != null) "description" else "No description available"
+    fun setBookDescription(bookDescription : ExpandableTextView, description : String?) {
+        val textHolder = description ?: "No description available"
         bookDescription.text = textHolder
     }
 
